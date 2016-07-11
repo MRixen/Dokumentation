@@ -1,0 +1,72 @@
+% Standardpakete
+\usepackage[utf8]{inputenc}
+% For paragraph (change counter deepth)
+\usepackage{titlesec}
+
+%Zitate ermögliche
+
+\usepackage[babel,german=quotes]{csquotes}
+
+% Absätze durch zusätzlichen Leerraum trennen
+\usepackage{parskip}
+% Ansonsten wird kein zusätzlicher Leerraum
+% eingefügt, dafür aber die erste Zeile eingerückt
+
+% Farbe
+\usepackage{xcolor}
+
+% Blindtext (zum Testen von Formatierungen)
+\usepackage{blindtext}
+
+% Farbige Tabellen
+\usepackage{colortbl}
+%\usepackage{cite}
+% Bibliography
+%\usepackage{natbib}
+\usepackage{bibgerm}
+\bibliographystyle{abbrvdin}
+% Show footnotes at bottom of page
+\usepackage[bottom]{footmisc}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+
+\usepackage{multirow}
+
+\usepackage{array,ragged2e}
+
+% Abkürzungsverzeichnis
+\usepackage[]{acronym}
+
+%% Tabellen
+\usepackage{array}
+
+% MATHEMATIK --------------
+% Verbesserter Mathesatz
+%Basispaket
+\usepackage[intlimits,sumlimits,namelimits]{amsmath}
+% Verbesserung und Bugfix gegenüber amsmath
+\usepackage{mathtools}
+%Fette kursive mathematische Symbole
+\usepackage[]{bm}
+% -----------------------------
+
+% GLEITUMGEBUNG --------------
+% Grafiken
+% Grafiken einbinden
+\usepackage{graphicx}
+%\usepackage{pstricks,pst-2dplot,pst-pdf} 
+% verbesserte Kontrolle über Gleitobjekte
+\usepackage{float}
+% Beschriftung der Gleitobjekte anpassen
+\usepackage[
+	font={small,sf},
+	labelfont=bf,
+	format=hang,
+	width=0.9\textwidth
+]{caption}
+% -----------------------------
+
+%Kopf_und_Fusszeile
+%\usepackage{fancyhdr}
+\usepackage[automark]{scrpage2}

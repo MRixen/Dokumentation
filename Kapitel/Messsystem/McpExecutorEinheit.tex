@@ -1,0 +1,21 @@
+\section{Mcp-Executor-Einheit}
+\label{kap:McpExecutorEinheitMain}
+Die Mcp-Executor-Einheit definiert ein Gerät, welches Beschleunigungsdaten über SPI an ein Master-Gerät schickt, sobald es eingeschaltet wird.
+\newline
+Für diese Funktionalität werden die in Kapitel \ref{kap:McpExecutorVerwendeteKomponenten} beschriebenen Komponenten verwendet, welche wie in Abbildung \ref{fig:Mcp2515EinheitZusammenspiel} dargestellt entsprechend verknüpft sind.
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\linewidth]{Bilder/Mcp2515EinheitZusammenspiel}
+		\caption[Zusammenspiel der Komponenten Mcp-Executor-Einheit]{Zusammenspiel der Komponenten Mcp-Executor-Einheit}
+		\label{fig:Mcp2515EinheitZusammenspiel}
+	\end{figure}
+	
+Der Microcontroller Atmega328 ließt von dem Beschleunigungssensor Adxl über die Schnittstelle SPI Sensordaten aus und gibt diese (ebenfalls über SPI) an den Mcp2515 weiter. Dieser schiebt die Daten auf den CAN-Bus.
+	
+\input{Kapitel/Messsystem/McpExecutorVerwendeteKomponenten}
+\input{Kapitel/Messsystem/McpExecutorEinheitTest}
+\input{Kapitel/Messsystem/McpExecutorEinheitBeta}
+\input{Kapitel/Messsystem/McpExecutorEinheitPreRelease}
+\input{Kapitel/Messsystem/McpExecutorEinheitRelease}
+\input{Kapitel/Messsystem/McpExecutorProgrammaufbau}

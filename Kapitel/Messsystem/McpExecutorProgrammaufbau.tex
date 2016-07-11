@@ -1,0 +1,19 @@
+\subsection{Programmaufbau}
+\label{kap:McpExecutorProgrammaufbau}
+Das Programm, welches auf der MCU einer Einheit aktiv ist besteht aus einer Setup- und einer Loop-Routine. Innerhalb des Setups efolgt die Definition verschiedener Variablen und die Konfiguration der SPI-Schnisttstelle, sowie der Komponenten Adxl345 und Mcp2515 (s. Listing \ref{lst:McpExecutorProgrammSetup}).
+In Zeile XXX ....
+
+% LISTING FÜR SETUP() EINFÜGEN ALS VERWEIS
+
+In der Loop-Routine  (s. Listing \ref{lst:McpExecutorProgrammSetup}) werden zwei Routinen aufgerufen, von denen die Routine getAdxlData() die Sensordaten ließt und zusammen mit einem Zeitstempel in ein Array speichert.
+Die Routine $mcp2515_load_tx_buffer0()$ schreibt die Daten in den Sende-Buffer 0.
+
+% LISTING FÜR LOOP() EINFÜGEN ALS VERWEIS
+
+Innerhalb der Routine $getAdxlData()$ erfolgt in Zeile XXX... das ....
+
+% LISTING FÜR getAdxlData() EINFÜGEN ALS VERWEIS
+
+Innerhalb der Routine $mcp2515_load_tx_buffer0()$ erfolgt in Zeile XXX... das ....
+
+% LISTING FÜR mcp2515_load_tx_buffer0() EINFÜGEN ALS VERWEIS

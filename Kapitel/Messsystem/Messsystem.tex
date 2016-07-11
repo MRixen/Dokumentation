@@ -1,0 +1,18 @@
+\chapter{Messsystem}
+Das Messsystem besteht aus mehreren Sensor-Einheiten, die an bestimmten Positionen eines menschlichen Körpers angebracht sind. Mit diesen Einheiten erfolgt das Erfassen von definierten Bewegungsabläufen, wie z.B. das Gehen geradeaus auf einer geraden Ebene, etc.
+Die Sensor-Einheiten sind über ein Bus-System (CAN-Bus) miteinander verbunden und kommunizieren mit einem Hauptrechner (Server), der die Sensordaten verarbeitet und über einen TCP-Socket versendet. Eine Client-Application verbindet sich mit dem Server und dient als HMI des Systems.
+Mit diesem Programm können die Messwerte grafisch dargestellt und in einer Datenbank abgespeichert werden.
+\newline
+Die Sensor-Einheiten und der Server sind in einen tragbaren Anzug eingearbeitet, während die Client-Application über einen herkömmlichen PC oder ein Smartphone bedient werden kann (Stoppen, Starten eines Messvorgangs, etc.).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{Bilder/pseudoImage}
+	\caption[Messsystem]{Messsystem}
+\label{fig:messsystem}
+\end{figure}
+
+
+\input{Kapitel/Messsystem/McpExecutorEinheit}
+\input{Kapitel/Messsystem/Hauptrechner}
+\input{Kapitel/Messsystem/Anzug}
