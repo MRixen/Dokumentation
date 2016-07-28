@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.2)  2 JUL 2016 20:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.7.2)  28 JUL 2016 06:33
 entering extended mode
 **./template_Report.tex
 (template_Report.tex
@@ -894,75 +894,116 @@ pExecutorEinheitBeta.tex
 File: Bilder/McpExecutor_BetaDetail.png Graphic file (type png)
 
 <use Bilder/McpExecutor_BetaDetail.png>
-Package pdftex.def Info: Bilder/McpExecutor_BetaDetail.png used on input line 1
-1.
+Package pdftex.def Info: Bilder/McpExecutor_BetaDetail.png used on input line 9
+.
 (pdftex.def)             Requested size: 345.0pt x 122.16943pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--14
-
- []
-
-[5 <./Bilder/McpExecutorTest.png>]
-<Bilder/McpExecutor2515Klettverschluss.png, id=43, 3011.25pt x 2007.5pt>
+<Bilder/McpExecutor2515Klettverschluss.png, id=40, 3011.25pt x 2007.5pt>
 File: Bilder/McpExecutor2515Klettverschluss.png Graphic file (type png)
 
 <use Bilder/McpExecutor2515Klettverschluss.png>
 Package pdftex.def Info: Bilder/McpExecutor2515Klettverschluss.png used on inpu
-t line 22.
+t line 20.
 (pdftex.def)             Requested size: 345.0pt x 229.98463pt.
- [6 <./Bilder/McpExecutor_BetaDetail.png> <./Bilder/McpExecutor2515Klettverschl
-uss.png>]
-Underfull \hbox (badness 1137) in paragraph at lines 45--45
-[]|\OT1/cmr/m/n/10 2. Ge-win-de-stut-zen wur-de auf-
- []
+ [5 <./Bilder/McpExecutorTest.png> <./Bilder/McpExecutor_BetaDetail.png>])
+(Kapitel/Messsystem/McpExecutorEinheitRelease.tex
+
+LaTeX Warning: Reference `tab:McpExecutorEinheitNegAspekte' on page 6 undefined
+ on input line 3.
 
 
-Overfull \hbox (119.39131pt too wide) in paragraph at lines 35--48
- [][] 
- []
-
-) (Kapitel/Messsystem/McpExecutorEinheitPreRelease.tex
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
-[]|\OT1/cmr/m/n/10 Platine verl[]angern und in
- []
-
-
-LaTeX Warning: Reference `fig:McpExecutorRelease' on page 7 undefined on input 
-line 32.
-
-) (Kapitel/Messsystem/McpExecutorEinheitRelease.tex
 Overfull \hbox (11.3616pt too wide) in paragraph at lines 3--4
 \OT1/cmr/m/n/10 Bei der Realease-Version der Mcp-Executor-Einheit wird die Beta
 -Version zun[]achst
  []
 
-[7]) (Kapitel/Messsystem/McpExecutorProgrammaufbau.tex
+) (Kapitel/Messsystem/McpExecutorProgrammaufbau.tex
 
-LaTeX Warning: Reference `lst:McpExecutorProgrammSetup' on page 8 undefined on 
+LaTeX Warning: Reference `lst:McpExecutorProgrammSetup' on page 6 undefined on 
 input line 3.
 
 
-LaTeX Warning: Reference `lst:McpExecutorProgrammSetup' on page 8 undefined on 
+LaTeX Warning: Reference `lst:McpExecutorProgrammSetup' on page 6 undefined on 
 input line 8.
 
-)) (Kapitel/Messsystem/Hauptrechner.tex
+[6 <./Bilder/McpExecutor2515Klettverschluss.png>]))
+(Kapitel/Messsystem/Hauptrechner.tex
 (Kapitel/Messsystem/HauptrechnerVerwendeteKomponenten.tex
 
-LaTeX Warning: Reference `fig:Raspberry' on page 8 undefined on input line 8.
+LaTeX Warning: Reference `fig:Raspberry' on page 7 undefined on input line 8.
 
-[8]
 
-LaTeX Warning: Reference `fig:Anker' on page 9 undefined on input line 32.
+LaTeX Warning: Reference `fig:Anker' on page 7 undefined on input line 32.
 
 ) (Kapitel/Messsystem/HauptrechnerRelease.tex)
-(Kapitel/Messsystem/HauptrechnerProgrammaufbau.tex))
-(Kapitel/Messsystem/Anzug.tex [9]
+(Kapitel/Messsystem/HauptrechnerProgrammaufbau.tex [7]))
+(Kapitel/Messsystem/Anzug.tex
 (Kapitel/Messsystem/AnzugVerwendeteKomponenten.tex)
-(Kapitel/Messsystem/AnzugTest.tex) (Kapitel/Messsystem/AnzugBeta.tex)
-(Kapitel/Messsystem/AnzugRelease.tex)))
-(Kapitel/Robotersystem/Robotersystem.tex [10] [11]
+(Kapitel/Messsystem/AnzugTest.tex) (Kapitel/Messsystem/AnzugBeta.tex [8])
+(Kapitel/Messsystem/AnzugRelease.tex))
+(Kapitel/Messsystem/Erfassungsprogramm.tex (Kapitel/Messsystem/ErfassungGui.tex
+<Bilder/ClientGraph_Gui.png, id=55, 356.532pt x 319.1925pt>
+File: Bilder/ClientGraph_Gui.png Graphic file (type png)
+
+<use Bilder/ClientGraph_Gui.png>
+Package pdftex.def Info: Bilder/ClientGraph_Gui.png used on input line 7.
+(pdftex.def)             Requested size: 345.0pt x 308.89064pt.
+ [9] [10 <./Bilder/ClientGraph_Gui.png>]
+Overfull \hbox (2.4278pt too wide) in paragraph at lines 31--33
+\OT1/cmr/m/n/10 Feh-ler), die durch das Bet[]ati-gen des But-tons \OT1/cmr/m/it
+/10 Cle-ar \OT1/cmr/m/n/10 gel[]oscht wer-den k[]onnen. 
+ []
+
+) (Kapitel/Messsystem/ErfassungGuiDetail1.tex
+<Bilder/ClientGraphDiagramm.png, id=66, 590.80725pt x 532.389pt>
+File: Bilder/ClientGraphDiagramm.png Graphic file (type png)
+
+<use Bilder/ClientGraphDiagramm.png>
+Package pdftex.def Info: Bilder/ClientGraphDiagramm.png used on input line 9.
+(pdftex.def)             Requested size: 345.0pt x 310.89796pt.
+ [11])
+(Kapitel/Messsystem/ErfassungGuiDetail2.tex
+<Bilder/ClientGraphDatabase.png, id=70, 199.34476pt x 355.3275pt>
+File: Bilder/ClientGraphDatabase.png Graphic file (type png)
+
+<use Bilder/ClientGraphDatabase.png>
+Package pdftex.def Info: Bilder/ClientGraphDatabase.png used on input line 7.
+(pdftex.def)             Requested size: 172.5pt x 307.47333pt.
+)
+(Kapitel/Messsystem/ErfassungProgrammaufbau.tex [12 <./Bilder/ClientGraphDiagra
+mm.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+[13 <./Bilder/ClientGraphDatabase.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+))) (Kapitel/Robotersystem/Robotersystem.tex [14]
 Kapitel 2.
-) [12
+) [15
 
 ] (template_Report.aux)
 
@@ -970,13 +1011,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 7538 strings out of 493334
- 110140 string characters out of 3139232
- 206567 words of memory out of 3000000
- 10837 multiletter control sequences out of 15000+200000
- 16045 words of font info for 56 fonts, out of 3000000 for 9000
+ 7575 strings out of 493334
+ 111184 string characters out of 3139232
+ 203629 words of memory out of 3000000
+ 10858 multiletter control sequences out of 15000+200000
+ 16391 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,12n,39p,821b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,7n,39p,821b,386s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKT
@@ -985,10 +1026,11 @@ nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
 msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmss9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on template_Report.pdf (15 pages, 22372880 bytes).
+0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on template_Report.pdf (18 pages, 22450256 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
+ 120 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

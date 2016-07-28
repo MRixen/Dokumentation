@@ -1,0 +1,34 @@
+\subsection{Beschreibung HMI - Main}
+\label{kap:ClientGraphProgramm}
+Die HMI gliedert sich in mehrere Bereiche, in denen verschiedene Funktionalitäten bereitgestellt werden. Diese finden im folgenden Abschnitt Erläuterung. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=1.0\linewidth]{Bilder/ClientGraph_Gui}
+\caption[Client Graph HMI]{Client Graph HMI}
+\label{fig:clientgraphgui}
+\end{figure}
+
+\begin{enumerate}
+	\item \textbf{Aufnahme starten} \\
+	Der grüne Balken dient als Indikator, ob Messwerte empfangen werden (grün: Messung kann gestartet werden, rot: Es werden keine Daten empfangen).\\
+	Durch das Betätigen des Buttons \textit{Record to db} wird eine Messung gestartet bis diese abgebrochen oder die max. Anzahl an Samples erreicht wird.\\
+	Das Label \textit{Saved rows} zeigt die aktuelle Anzahl aufgenommener Messwerte an.\\
+	Im Textfeld \textit{Context} kann eine Bezeichnung der Messwerte eingegeben werden (die exportierten Textdateien tragen diesen Namen).
+	
+	\item \textbf{Import / Export und Kalibrierung}\\
+	Mit dem Betätigen des Buttons \textit{Export...} erfolgt das Exportieren der erfassten Sensordaten in eine CSV-Datei. Jeder Sensor generiert eine eigene Datei mit dem unter \textit{COntext} angegebenen Namen.\\
+	Durch das Betätigen des Buttons \textit{Import...} kann eine Textdatei (CSV-Format) eingelesen und in die Datenbank geschrieben werden.\\
+	Durch das Betätigen des Buttons \textit{Calibrate Sensors} erfolgt das Kalibrieren aller Sensoren (s. Beschreibung in \ref{kap:Erfassungsprogramm}). Durch das Setzen des Häkchens \textit{Show ...} erfolgt das Darstellen der kalibrierten Sensorwerte.
+	
+	\item \textbf{Aufnahmezeit}\\
+	In das Textfeld \textit{Max. samples} wird die aufzunehmende Anzahl an Messwerten eingetragen. Danach stoppt die Messung automatisch. Standardmäßig sind 3500 Samples eingetragen, da bei einer zu großen Anzahl eine \textit{Out of memory Exception} geworfen wird.
+	
+	\item \textbf{Settings}\\
+	Durch das Setzen des Häkchens bei \textit{Show graph} wird ein grafische Visualisierung der Sensorwerte dargestellt.\\
+	Durch das Setzen des Häkchens bei \textit{Show database} werden die Einträge der Datenbank dargestellt.
+	
+	\item \textbf{Information}\\
+	In dem Textfeld erfolgt das Darstellen wichtiger Systemereignisse (z.B. Fehler), die durch das Betätigen des Buttons \textit{Clear} gelöscht werden können.
+\end{enumerate}
+
